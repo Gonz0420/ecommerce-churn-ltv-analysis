@@ -21,3 +21,32 @@ Este proyecto analiza el comportamiento transaccional de más de 24,000 clientes
 ---
 
 ## 📁 Estructura del Repositorio
+├── data/
+│   ├── pltv_proyectado_12meses.csv
+│   ├── resultado_rfm_marketing.csv
+│   ├── importancia_variables_churn.csv
+│   └── top_reglas_cross_selling.csv
+├── notebooks/
+│   └── Analisis1.ipynb
+├── scripts/
+│   └── script_rfm.py
+└── README.md
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+1. Clona este repositorio:
+   ```bash
+   git clone [https://github.com/Gonz0420/ecommerce-churn-ltv-analysis.git](https://github.com/Gonz0420/ecommerce-churn-ltv-analysis.git)
+  
+2. Instala las librerías necesarias:
+bash
+  pip install pandas numpy lifetimes scikit-learn matplotlib seaborn
+
+3. Ejecuta el script principal de análisis y segmentación:
+bash
+python script_rfm.py
+
+4. Haz clic en el botón verde **"Commit changes..."** para guardar los cambios.
+
+
+
